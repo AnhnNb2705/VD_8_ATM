@@ -15,12 +15,12 @@ main()
     if(a==123 && b==456)
     {
         printf("\nTai khoan hop le.\n");
-        int luaChon;
-    printf("\n  Menu \n1.Rut tien.\n2.Chuyen khoan.\n3.Xem so du. \n4.Ket thuc\n");
-    scanf("%d",&luaChon);
+       
     do
     {
-    	
+    int luaChon;
+    printf("\n  Menu \n1.Rut tien.\n2.Chuyen khoan.\n3.Xem so du. \n4.Ket thuc\n");
+    scanf("%d",&luaChon);	
     switch(luaChon)
         {
         case 1:
