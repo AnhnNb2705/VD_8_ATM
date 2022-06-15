@@ -16,13 +16,12 @@ main()
     {
         printf("\nTai khoan hop le.\n");
         int luaChon;
-    printf("\n  Menu \n1.Rut tien.\n2.Chuyen khoan.\n3.Xem so du. \n4.Ket thuc\n ");
+    printf("\n  Menu \n1.Rut tien.\n2.Chuyen khoan.\n3.Xem so du. \n4.Ket thuc\n");
     scanf("%d",&luaChon);
     do
     {
-    	printf ("\nMoi ban chon chuc nang: ");
-		scanf ("%d", &i);
-    switch(i)
+    	
+    switch(luaChon)
         {
         case 1:
         	{
